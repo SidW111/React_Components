@@ -1,4 +1,4 @@
-import { useState, type EventHandler, type FormEventHandler } from "react";
+import { useState,  type FormEventHandler } from "react";
 
 export default function FormValidation() {
   const [name, setName] = useState("");
