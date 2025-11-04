@@ -1,5 +1,8 @@
 import "./App.css";
-import List from "./components/Lists";
+import GrandChild from "./components/propsDrilling/GrandChild";
+import Parent from "./components/propsDrilling/Parent";
+// import Prac from "./components/prac";
+// import List from "./components/Lists";
 // import PaginatedTodos from "./components/Paginated";
 // import FetchAPI from "./components/FetchAPI";
 // import FormValidation from "./components/FormValidation";
@@ -8,6 +11,7 @@ import List from "./components/Lists";
 // import Todo from "./components/Todo";
 
 function App() {
+  const user = {name:'Siddhant'}
   return (
     <>
       {/* <Counter /> */}
@@ -16,7 +20,9 @@ function App() {
       {/* <FormValidation /> */}
       {/* <FetchAPI /> */}
       {/* <PaginatedTodos /> */}
-      <List />
+      {/* <List /> */}
+      {/* <Prac/> */}
+      <Parent user={user} />
     </>
   );
 }
