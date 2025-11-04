@@ -1,5 +1,6 @@
 import "./App.css";
-import PaginatedTodos from "./components/Paginated";
+import List from "./components/Lists";
+// import PaginatedTodos from "./components/Paginated";
 // import FetchAPI from "./components/FetchAPI";
 // import FormValidation from "./components/FormValidation";
 // import StepCounter from "./components/StepCounter";
@@ -14,7 +15,8 @@ function App() {
       {/* <StepCounter /> */}
       {/* <FormValidation /> */}
       {/* <FetchAPI /> */}
-      <PaginatedTodos />
+      {/* <PaginatedTodos /> */}
+      <List />
     </>
   );
 }
