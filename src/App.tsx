@@ -1,5 +1,6 @@
 import "./App.css";
-import FormValidation from "./components/FormValidation";
+import FetchAPI from "./components/FetchAPI";
+// import FormValidation from "./components/FormValidation";
 // import StepCounter from "./components/StepCounter";
 // import Counter from "./components/Counter";
 // import Todo from "./components/Todo";
@@ -10,7 +11,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Todo />  */}
       {/* <StepCounter /> */}
-      <FormValidation />
+      {/* <FormValidation /> */}
+      <FetchAPI />
     </>
   );
 }
