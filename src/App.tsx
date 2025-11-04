@@ -1,5 +1,6 @@
 import "./App.css";
-import FetchAPI from "./components/FetchAPI";
+import PaginatedTodos from "./components/Paginated";
+// import FetchAPI from "./components/FetchAPI";
 // import FormValidation from "./components/FormValidation";
 // import StepCounter from "./components/StepCounter";
 // import Counter from "./components/Counter";
@@ -12,7 +13,8 @@ function App() {
       {/* <Todo />  */}
       {/* <StepCounter /> */}
       {/* <FormValidation /> */}
-      <FetchAPI />
+      {/* <FetchAPI /> */}
+      <PaginatedTodos />
     </>
   );
 }
