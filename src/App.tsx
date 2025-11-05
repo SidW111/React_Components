@@ -1,6 +1,6 @@
 import "./App.css";
-import GrandChild from "./components/propsDrilling/GrandChild";
-import Parent from "./components/propsDrilling/Parent";
+import Parent from "./components/contextApiPrac/Parent";
+// import Parent from "./components/propsDrilling/Parent";
 // import Prac from "./components/prac";
 // import List from "./components/Lists";
 // import PaginatedTodos from "./components/Paginated";
@@ -11,7 +11,7 @@ import Parent from "./components/propsDrilling/Parent";
 // import Todo from "./components/Todo";
 
 function App() {
-  const user = {name:'Siddhant'}
+
   return (
     <>
       {/* <Counter /> */}
@@ -22,7 +22,8 @@ function App() {
       {/* <PaginatedTodos /> */}
       {/* <List /> */}
       {/* <Prac/> */}
-      <Parent user={user} />
+      {/* <Parent user={user} /> */}
+      <Parent />
     </>
   );
 }

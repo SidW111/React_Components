@@ -1,10 +1,10 @@
 
 import GrandChild from './GrandChild'
 
-const Children = ({user}:{user:any}) => {
+const Children = () => {
   return (
     <div>
-      <GrandChild user={user} />
+      <GrandChild  />
     </div>
   )
 }
